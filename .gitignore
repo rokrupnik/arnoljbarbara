@@ -5,44 +5,47 @@
 #
 # Note: if you want to stage/commit WP core files
 # you can delete this whole section/until Configuration.
-/wp-admin/
-/wp-content/index.php
-/wp-content/languages
-/wp-content/plugins/index.php
-/wp-content/themes/index.php
-/wp-includes/
-/index.php
-/license.txt
-/readme.html
-/wp-*.php
-/xmlrpc.php
+/webroot/wp-admin/
+/webroot/wp-content/index.php
+/webroot/wp-content/languages
+/webroot/wp-content/plugins/index.php
+/webroot/wp-content/themes/index.php
+/webroot/wp-includes/
+/webroot/index.php
+/webroot/license.txt
+/webroot/readme.html
+/webroot/wp-*.php
+/webroot/xmlrpc.php
 
 # Configuration
 wp-config.php
 
 # Example themes
-/wp-content/themes/twenty*/
+/webroot/wp-content/themes/twenty*/
 
 # Example plugin
-/wp-content/plugins/hello.php
+/webroot/wp-content/plugins/hello.php
 
 # Uploads
-/wp-content/uploads/
+/webroot/wp-content/uploads/
 
 # Log files
 *.log
 
 # htaccess
-/.htaccess
+/webroot/.htaccess
 
 # All plugins
 #
 # Note: If you wish to whitelist plugins,
 # uncomment the next line
-#/wp-content/plugins
+/webroot/wp-content/plugins
 
 # All themes
 #
 # Note: If you wish to whitelist themes,
 # uncomment the next line
 #/wp-content/themes
+
+# Custom
+.idea/
